@@ -38,6 +38,21 @@
 直接运行 `doubao_client.exe`。首次使用「代码执行」或「AI Agent」时，程序会将
 便携 Python 与便携 Chrome 下载到 exe 同级目录的 `bin/` 下。
 
+### 获取源码
+
+```bat
+git clone https://github.com/xiaochenyang15/doubao-client.git
+```
+
+无法直连 GitHub 时，可在原地址前拼接加速代理前缀。这类前缀仅代理下载，不支持推送：
+
+```bat
+git clone https://ghfast.top/https://github.com/xiaochenyang15/doubao-client.git
+git clone https://gh-proxy.com/https://github.com/xiaochenyang15/doubao-client.git
+```
+
+代理服务由第三方提供，可用性随时间变化；直连或自建代理更可靠。
+
 ### 从源码运行
 
 ```bat
