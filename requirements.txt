@@ -1,0 +1,4 @@
+wxPython>=4.2
+pycryptodome>=3.20
+pywin32>=306
+websocket-client>=1.7

@@ -1,0 +1,31 @@
+# ---- 登录态与设备标识（含个人凭据，绝不能进仓库）----
+cookies.dat
+cookies.json
+config.json
+_chrome_profile/
+LocalState.json
+*.db
+
+# ---- 本机使用产生的数据 ----
+agent_anchors.json
+_work/
+*.log
+
+# ---- 随程序下载/解包的运行时（体积大，按 README 一键获取）----
+bin/
+dist/
+_olds/
+
+# ---- 构建产物与缓存 ----
+build/
+*.spec.bak
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 编辑器与系统文件 ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
